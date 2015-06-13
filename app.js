@@ -89,7 +89,7 @@
                     //html += '<ons-col width="60px"><div class="life-thum"><img src="' + life.Life.image  + '" width="50" height="50"></div></ons-col>';
                     html += '<ons-col><header><span class="life-name">' + life.Life.name + '</span></header>';
                     // html += '<p class="life-where">' + arealists["0"] + '</p>';
-                    html += '<p class="life-where">' + life.Life.where + '</p>';
+                    html += '<p class="life-where">' + arealists[life.Life.where].value + '</p>';
                     html += '<p class="life-price">' + pricelists[life.Life.price].value + '</p>';        　
                     html += '<p class="life-searchcategory-name">' + life.Searchcategory.name + '</p>';
                     html += '<p class="life-emotionalcategory-name">' + life.Emotionalcategory.name + '</p>';
